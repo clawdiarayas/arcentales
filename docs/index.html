@@ -111,150 +111,51 @@
             </div>
         </div>
 
-        <!-- Distribución y Diseño -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-            <!-- Distribución -->
-            <div class="card col-span-2 border-l-4 border-l-green-500">
-                <h3 class="text-xl font-bold text-white mb-6 flex items-center">
-                    <i data-lucide="layout" class="w-6 h-6 mr-2 text-green-400"></i> Distribución Arquitectónica
-                </h3>
-                
-                <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
-                    <!-- Planta General -->
-                    <div>
-                        <h4 class="text-green-400 font-bold text-sm mb-3 uppercase tracking-wider">Planta de Conjunto</h4>
-                        <div class="bg-slate-900 rounded-lg p-4 border border-slate-800 shadow-inner overflow-x-auto">
-<pre class="text-[0.65rem] md:text-xs leading-relaxed font-mono text-slate-300">
-NORTE (Calle)
-┌────────────────────────────────────────────────────────┐
-│                                                        │
-│                   Retiro frontal 6 m                   │
-│                                                        │
-│      ┌──────────────────────────────────────────────┐  │
-│      │                CASA 17 x 7 m                 │  │
-│      └──────────────────────────────────────────────┘  │
-│      ┌──────────────────────────────────────────────┐  │
-│      │           TERRAZA TECHADA 17 x 3 m           │  │
-│      └──────────────────────────────────────────────┘  │
-│                                                        │
-│      ┌───────────────┐      ┌──────────────────────────┐ │
-│      │  PALAPA 4 x 4 │      │     ALBERCA 6 x 4 m      │ │
-│      │ Asador + baño │      │                          │ │
-│      └───────────────┘      └──────────────────────────┘ │
-│                                                        │
-│             Jardín libre posterior 10–12 m             │
-│                                                        │
-└────────────────────────────────────────────────────────┘
-                           SUR
-</pre>
-                        </div>
-                    </div>
-
-                    <!-- Detalle Casa -->
-                    <div>
-                        <h4 class="text-blue-400 font-bold text-sm mb-3 uppercase tracking-wider">Distribución Interior (105 m²)</h4>
-                        <div class="bg-slate-900 rounded-lg p-4 border border-slate-800 shadow-inner overflow-x-auto">
-<pre class="text-[0.65rem] md:text-xs leading-relaxed font-mono text-slate-300">
-NORTE (CALLE)
-┌────────────────────────────────────────────────────────────┐
-│                                                            │
-│   1.20   5.20     2.80    1.40   2.80        3.60      │
-│  ACCESO SALA-COM  REC1    BAÑO   REC2      PRINCIPAL   │
-│                                                            │
-│ ┌──────┬────────┬───────┬──────┬───────┬──────────────┐    │
-│ │      │        │       │      │       │              │    │
-│ │      │        │       │      │       │              │    │
-│ │      │        │       │      │       │              │    │
-│ │      │        │       │      │       │              │    │
-│ │      │        │       │      │       │              │    │
-│ └──────┴────────┴───────┴──────┴───────┴──────────────┘    │
-│                                                            │
-│   ←──────────── PASILLO 1.00 m (lado SUR) ─────────────→   │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
-                   SUR (TERRAZA 17 x 3 m)
-</pre>
-                        </div>
-                        <div class="mt-4 grid grid-cols-2 gap-2 text-xs text-slate-400">
-                            <div class="flex items-center"><div class="w-2 h-2 bg-slate-600 rounded-full mr-2"></div>Sala-Comedor Abiertos</div>
-                            <div class="flex items-center"><div class="w-2 h-2 bg-slate-600 rounded-full mr-2"></div>2 Recámaras Secundarias</div>
-                            <div class="flex items-center"><div class="w-2 h-2 bg-slate-600 rounded-full mr-2"></div>1 Baño Compartido</div>
-                            <div class="flex items-center"><div class="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>Recámara Ppal + Baño</div>
-                        </div>
-                    </div>
+        <!-- Planos de Distribución -->
+        <h3 class="text-xl font-bold text-white mb-6 flex items-center border-b border-slate-700 pb-2">
+            <i data-lucide="layout" class="w-6 h-6 mr-2 text-green-400"></i> Planos y Distribución (Fase 1)
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            <div class="relative group rounded-xl overflow-hidden border border-slate-700 shadow-lg">
+                <img src="img/planta_distribucion.jpg" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" alt="Planta de Distribución">
+                <div class="absolute bottom-0 w-full bg-black/80 p-3 text-sm text-white font-bold text-center backdrop-blur-sm">
+                    PLANTA ARQUITECTÓNICA: ZONA SOCIAL Y PRIVADA
                 </div>
             </div>
-
-            <!-- Estética -->
-            <div class="card col-span-2 border-l-4 border-l-purple-500">
-                <h3 class="text-xl font-bold text-white mb-4 flex items-center">
-                    <i data-lucide="palette" class="w-6 h-6 mr-2 text-purple-400"></i> Estética & Hacks
-                </h3>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                        <span class="text-xs font-bold text-slate-500 uppercase tracking-wide block mb-3">Paleta de Materiales</span>
-                        <div class="flex gap-4">
-                            <div class="text-center">
-                                <div class="h-12 w-12 rounded-lg bg-[#E3DAC9] border border-white/20 shadow-lg mx-auto mb-2"></div>
-                                <span class="text-xs text-slate-400">Blanco Hueso</span>
-                            </div>
-                            <div class="text-center">
-                                <div class="h-12 w-12 rounded-lg bg-[#8D6E63] border border-white/20 shadow-lg mx-auto mb-2"></div>
-                                <span class="text-xs text-slate-400">Madera</span>
-                            </div>
-                            <div class="text-center">
-                                <div class="h-12 w-12 rounded-lg bg-[#4E342E] border border-white/20 shadow-lg mx-auto mb-2"></div>
-                                <span class="text-xs text-slate-400">Vigas</span>
-                            </div>
-                            <div class="text-center">
-                                <div class="h-12 w-12 rounded-lg bg-[#212121] border border-white/20 shadow-lg mx-auto mb-2"></div>
-                                <span class="text-xs text-slate-400">Herrería</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-purple-900/10 p-4 rounded-lg border border-purple-500/20">
-                        <div class="text-purple-400 text-sm font-bold mb-2 flex items-center uppercase tracking-wide">
-                            <i data-lucide="check-circle" class="w-4 h-4 mr-2"></i> Look "Rancho Fino" (Low Cost)
-                        </div>
-                        <ul class="text-sm text-slate-300 space-y-2">
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Piso de concreto pulido (elegante y duradero).</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Piedra natural solo en acentos estratégicos.</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Vigas decorativas ligeras.</li>
-                            <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Iluminación cálida indirecta.</li>
-                        </ul>
-                    </div>
+            <div class="relative group rounded-xl overflow-hidden border border-slate-700 shadow-lg">
+                <img src="img/planta_acotada.jpg" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" alt="Planta Acotada">
+                <div class="absolute bottom-0 w-full bg-black/80 p-3 text-sm text-white font-bold text-center backdrop-blur-sm">
+                    PLANTA ACOTADA: DIMENSIONES Y ÁREAS (105 m²)
                 </div>
             </div>
         </div>
 
         <!-- Master Plan Visual -->
         <h3 class="text-xl font-bold text-white mb-6 flex items-center border-b border-slate-700 pb-2">
-            <i data-lucide="map" class="w-6 h-6 mr-2 text-slate-400"></i> Proyección Final (Master Plan)
+            <i data-lucide="map" class="w-6 h-6 mr-2 text-amber-400"></i> Perspectiva Exterior (Render Final)
         </h3>
         <div class="relative group rounded-xl overflow-hidden border border-slate-700 shadow-2xl mb-10">
-            <img src="img/plano_conjunto.jpg" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Plano de Conjunto Renderizado">
+            <img src="img/render_exterior.jpg" class="w-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Render Exterior Jardín">
             <div class="absolute bottom-0 w-full bg-gradient-to-t from-black/90 to-transparent p-6 pt-12">
-                <p class="text-white font-bold text-lg text-center tracking-wide">IMPLANTACIÓN GENERAL: CASA + TERRAZA + ALBERCA</p>
+                <p class="text-white font-bold text-lg text-center tracking-wide">ÁREA SOCIAL EXTERIOR: TERRAZA, FOGATERO Y ALBERCA</p>
             </div>
         </div>
 
-        <!-- Mood Board -->
+        <!-- Galería de Renders -->
         <h3 class="text-xl font-bold text-white mb-6 flex items-center border-b border-slate-700 pb-2">
-            <i data-lucide="image" class="w-6 h-6 mr-2 text-slate-400"></i> Referencias Visuales
+            <i data-lucide="image" class="w-6 h-6 mr-2 text-slate-400"></i> Fachada e Iluminación
         </h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="relative group rounded-xl overflow-hidden border border-slate-700 shadow-lg">
-                <img src="img/render_exterior.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Exterior Lineal">
-                <div class="absolute bottom-0 w-full bg-black/80 p-3 text-sm text-white font-bold text-center backdrop-blur-sm border-t border-white/10">
-                    FACHADA LINEAL + ALBERCA PARALELA
+                <img src="img/vista_frontal.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Fachada Frontal">
+                <div class="absolute bottom-0 w-full bg-black/80 p-3 text-sm text-white font-bold text-center backdrop-blur-sm">
+                    FACHADA PRINCIPAL (ACCESO Y ESTACIONAMIENTO)
                 </div>
             </div>
             <div class="relative group rounded-xl overflow-hidden border border-slate-700 shadow-lg">
-                <img src="img/render_interior.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Interior Abierto">
-                <div class="absolute bottom-0 w-full bg-black/80 p-3 text-sm text-white font-bold text-center backdrop-blur-sm border-t border-white/10">
-                    SALA-COMEDOR CON VIGAS APARENTES
+                <img src="img/render_nocturno.jpg" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500" alt="Vista Nocturna">
+                <div class="absolute bottom-0 w-full bg-black/80 p-3 text-sm text-white font-bold text-center backdrop-blur-sm">
+                    AMBIENTACIÓN NOCTURNA E ILUMINACIÓN
                 </div>
             </div>
         </div>
